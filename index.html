@@ -11,7 +11,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="Toko Bunga Cianjur menyediakan berbagai macam bunga segar dan rangkaian bunga indah untuk segala acara di Cianjur dan sekitarnya.">
     <meta name="keywords" content="Toko Bunga Cianjur, Alyssa Florist, bunga segar Cianjur, rangkaian bunga, florist Cianjur, bunga pernikahan Cianjur, bunga ulang tahun Cianjur, dekorasi bunga Cianjur, buket bunga, karangan bunga, papan bunga, bunga mawar, bunga lily, bunga tulip, bunga meja, toko bunga terbaik di Cianjur">
-    <meta property="og:image" content="https://bunga-cianjur.alyssaflorist.com/toko.jpg">
+    <meta property="og:image" content="toko.jpg">
     <meta property="og:title" content="Toko Bunga Cianjur - Alyssa Florist">
     <meta property="og:description" content="Toko Bunga Cianjur menyediakan berbagai macam bunga segar dan rangkaian bunga indah untuk segala acara di Cianjur dan sekitarnya.">
     
@@ -27,10 +27,10 @@
             font-family: Arial, sans-serif;
             background-color: #fafafa;
             display: flex;
-            align-items: center;
+            align-items: flex-start; /* Konten akan lebih ke atas */
             justify-content: center;
             min-height: 100vh;
-            padding: 20px;
+            padding-top: 20px; /* Tambahkan sedikit ruang atas */
         }
 
         /* Kontainer Galeri */
@@ -41,17 +41,18 @@
             overflow: hidden;
             max-width: 400px;
             text-align: center;
+            margin-top: 10px; /* Sesuaikan jarak */
         }
 
         /* Navigasi Judul */
         .title-bar {
             background-color: white;
-            padding: 10px;
+            padding: 5px;
             border-radius: 20px;
             font-weight: bold;
             font-size: 16px;
             color: #333;
-            margin: 15px;
+            margin: 10px;
             text-align: center;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
@@ -64,21 +65,21 @@
 
         /* Deskripsi */
         .description {
-            padding: 15px;
+            padding: 10px;
             font-size: 14px;
             color: #777777;
         }
 
         /* Tombol 3D "Kunjungi Toko" */
         .button-container {
-            padding: 15px;
+            padding: 10px;
             text-align: center;
         }
 
         .button-3d {
             background-color: #D32F2F;
             color: white;
-            padding: 10px 20px;
+            padding: 8px 18px;
             font-size: 14px;
             border: none;
             border-radius: 10px;
@@ -111,7 +112,7 @@
     <div class="gallery">
         <!-- Navigasi Judul -->
         <div class="title-bar">Toko Bunga Cianjur</div>
-        <img src="toko.jpg" alt="Alyssa Florist">
+        <img src="toko.jpg" alt="Gambar Toko Bunga Cianjur">
         <!-- Deskripsi -->
         <div class="description">Toko Bunga Cianjur menyediakan berbagai macam bunga segar dan rangkaian bunga untuk semua acara spesial Anda.</div>
         <!-- Tombol 3D -->
